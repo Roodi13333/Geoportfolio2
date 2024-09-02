@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoportfolio - Roodi Yousif</title> <!-- Changed to reflect your name -->
+    <link rel="stylesheet" href="geoportfoliocss.css"> <!-- Links your CSS file -->
+    <link rel="icon" type="image/x-icon" href="favicon.png"> <!-- Updates the favicon -->
+</head>
+
+<body>
+    <!-- Start of navigation bar -->
+    <div id="sidebar" class="sidebar-animate-open" style="display:none"> <!-- Sidebar menu -->
+        <button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+        <a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+        <a href="#about" class="sidebar-menu-button mainbutton">About</a>
+        <a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+        <a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+        <a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+        <a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+        <div class="other-sidebar-info">
+            <table class="sidebar-contact-table">
+                <tr>
+                    <td>
+                        <a href="https://au.linkedin.com/in/roodi-yousif" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- Change to your LinkedIn profile -->
+                    </td>
+                    <td>
+                        <a href="https://au.linkedin.com/in/roodi-yousif" target="_blank">LinkedIn</a> <!-- Change to your LinkedIn profile -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- End of navigation bar -->
+
+    <div class="header"> <!-- Header with sidebar toggle button -->
+        <button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+    </div>
+    
+    <div class="mapbgdiv" id="topofpage">
+        <img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+        <div class="title">
+            <h1>Geoportfolio</h1>
+            <h2>Roodi Yousif</h2> <!-- Inserted your name -->
+        </div>
+    </div>
+
+    <!-- INTRODUCTION AND ABOUT -->
+    <div class="intro bar" id="about"><h2>About</h2></div> <!-- Updated introduction section -->
+    <div class="about">
+        Hi there! Welcome to my Geoportfolio. My name is Roodi Yousif. I was born in Iraq and raised in Melbourne, Australia. As of August 2024, I am in my fourth and final year of the Bachelor of Surveying degree at RMIT University. My surveying-related interests include cadastral surveying, GPS work, construction surveying, and drafting feature surveys. My final year major project that I am currently working on consists of looking at current Wi-Fi and Smartphone-Based Indoor Positioning in a Complex Surrounding Environment. The aim of the research is to simulate a fingerprinting-based indoor positioning approach, which can effectively determine a smartphone users' location in a complex environment using Wi-Fi technology. My own personal hobbies include gym, soccer, cars, and going out.
+        <br><br>
+        <img src="Selfie.JPG" height="500px" width="auto" class="image"> <!-- Inserted your selfie -->
+    </div>
+    <!-- END OF INTRODUCTION AND ABOUT SECTION -->
+
+    <!-- ACADEMIC PORTFOLIO -->
+    <div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+    <!-- Capstone Project Section -->
+    <div class="bar"><h2>Capstone Project: Wi-Fi and Smartphone-Based Indoor Positioning</h2></div>
+    <div class="paragraphs">
+        The Capstone (Design) is the first half of the final year major project assessment. It focuses on designing and proposing your very own major project. You are then paired with a supervisor, who will guide you throughout the remainder of the year to make sure the ambitious project comes to fruition. Below are the key assessments and activities:
+        <ul>
+            <li><b>Assessment 1:</b> Student supervisor agreement. An agreement signed by both parties that outlines the expected duties from each other. This includes the frequency of meetings.</li>
+            <li><b>Assessment 2:</b> Poster conference presentation. Creation of a poster that showcases your major project and its research questions. Presented to other staff and industry professionals.</li>
+            <li><b>Assessment 3:</b> Literature Review and project plan. A report of similar published literature directly relevant to your project. The project plan sets out the expected timeline for the remainder of the year.</li>
+        </ul>
+        <p>Below are photos related to my Capstone project:</p>
+        
+        <!-- Capstone Poster -->
+        <div class="bar"><h3>Capstone Poster</h3></div>
+        <img src="Academic-Gallery/wifi.jpg" width="auto" height="700px" class="image" alt="Capstone Poster for Wi-Fi and Smartphone-Based Indoor Positioning"> <!-- Assessment 2 poster -->
+
+        <!-- Note about zooming -->
+        <p><b>Note:</b> If the display is too small, right-click the image and 'Open in new tab' to allow zooming of the image.</p>
+    </div>
+
+    <!-- 3D Modeling and Point Cloud Analysis Project Section -->
+    <div class="bar"><h2>3D Modeling and Point Cloud Analysis Project</h2></div>
+    <div class="paragraphs">
+        This project involved creating 3D models and analyzing point clouds using various software tools. The key steps included:
+        <ul>
+            <li>Interior and exterior orientation estimation.</li>
+            <li>Generating and refining sparse and dense point clouds.</li>
+            <li>Creating mesh models from point clouds.</li>
+            <li>Implementing ground control points for georeferencing.</li>
+        </ul>
+        <p>The following images represent different stages of the project:</p>
+    </div>
+    <img src="Academic-Gallery/project1.png" width="auto" height="700px" class="image" alt="Sparse Point Cloud"> <!-- Project image 1 -->
+    <img src="Academic-Gallery/project2.png" width="auto" height="700px" class="image" alt="Dense Point Cloud"> <!-- Project image 2 -->
+    <img src="Academic-Gallery/project3.png" width="auto" height="700px" class="image" alt="Final Mesh Model"> <!-- Project image 3 -->
+    <!-- END OF ACADEMIC PORTFOLIO -->
+
+    <!-- Parkville Practical Assessment Section -->
+    <div class="bar"><h2>Parkville Practical Assessment</h2></div>
+    <div class="paragraphs">
+        <p>
+            Cadastral Surveying Practice is a project also completed by me. It focuses on becoming familiar with key cadastral surveying concepts. Such as: Cadastral Surveying Law also gave me the opportunity to gain more practical experience, by doing a full surveying in the suburb of Parkville. This was then drafted on a handwritten A3 sheet of paper. Comps were done on HP35. Below is my submission for the Parkville Practical Assessment.
+        </p>
+    </div>
+
+    <!-- Embed PDF -->
+    <div class="paragraphs">
+        <h3>Parkville Practical Assessment Photos</h3>
+        <img src="Academic-Gallery/Coms1.png" width="auto" height="700px" class="image" alt="Sparse Point Cloud"> <!-- Project image 1 -->
+        <img src="Academic-Gallery/Coms2.png" width="auto" height="700px" class="image" alt="Dense Point Cloud"> <!-- Project image 2 -->
+        <img src="Academic-Gallery/Coms3.png" width="auto" height="700px" class="image" alt="Final Mesh Model"> <!-- Project image 3 -->
+        <img src="Academic-Gallery/Coms4.png" width="auto" height="700px" class="image" alt="Final Mesh Model"> <!-- Project image 3 -->
+        <img src="Academic-Gallery/Coms5.png" width="auto" height="700px" class="image" alt="Final Mesh Model"> <!-- Project image 3 -->
+    </div>
+
+    <!-- INDUSTRY EXPERIENCE -->
+    <div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+    <div class="paragraphs">
+        This page briefly covers my work experience within the surveying industry. I have worked as a Surveyor Assistant, gaining experience in tasks such as feature surveys, re-establishments, and GPS survey tasks.
+    </div>
+
+    <div class="bar"><h3>Peter Richards Surveying</h3></div>
+    <img src="company.png" width="auto" height="100px" class="image" alt="Company Logo"> <!-- Replaced with your company logo -->
+    <div class="job-title">Surveyor Assistant</div>
+    <div class="job-time">January 2024 - Present</div>
+    <div class="job-overview">
+        My role at Peter Richards Surveying involves assisting senior surveyors in conducting feature surveys, re-establishments, and ensuring precise data collection and documentation. I also manage GPS survey tasks and support the set-outs department.
+    </div>
+    <!-- END OF INDUSTRY EXPERIENCE -->
+
+    <!-- SKILLS AND PROFICIENCIES -->
+    <div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div>
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/
